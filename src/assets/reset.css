@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 466044 */
+  src: url('//at.alicdn.com/t/font_466044_jlmx4mzm3cgzaor.eot');
+  src: url('//at.alicdn.com/t/font_466044_jlmx4mzm3cgzaor.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_466044_jlmx4mzm3cgzaor.woff') format('woff'),
+  url('//at.alicdn.com/t/font_466044_jlmx4mzm3cgzaor.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_466044_jlmx4mzm3cgzaor.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font: 12px "PFmedium", "Arial Narrow", HELVETICA;
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: #999999;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+a:hover {
+  color: #999999;
+}
+
+a:link {
+  color: #999999;
+}
+
+a:visited {
+  color: #999999;
+}
+
+em {
+  font-style: normal
+}
+
+li {
+  list-style: none
+}
+
+img {
+  border: 0;
+  vertical-align: middle
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+p {
+  word-wrap: break-word
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  background: rgb(249, 242, 234);
+}

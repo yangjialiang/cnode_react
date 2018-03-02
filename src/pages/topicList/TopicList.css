@@ -1,0 +1,111 @@
+.TopicListCon{
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  margin: auto;
+}
+.listBtnCon{
+  width: 100%;
+  height: 0.7rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.listBtnCon>li{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listBtnCon>div{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.05rem;
+  width: 16.666%;
+  background-color: aqua;
+  transition: transform .3s;
+}
+.listCon{
+  position: absolute;
+  top: 0.7rem;
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  margin: auto;
+  overflow: hidden;
+}
+.list{
+  width: 100%;
+  height: 1.38rem;
+  border-bottom: 0.02rem solid rgba(222, 222, 222, 0.8);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.header{
+  background-size: cover;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 0rem 0.2rem;
+}
+.header>img{
+  width: 100%;
+}
+.info{
+  flex: 1;
+  height: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-top: 0.1rem;
+  font-weight: 700;
+  text-align: left;
+  font-size: 0.3rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 0.2rem 0 0;
+  color: #444;
+}
+.tab{
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.refreshTips {
+  padding: 0.28rem;
+}
+.refreshTips>span{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.refreshTips>span>div{
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.1rem;
+  background-image: url('../../assets/loading.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.loadmoreTips {
+  padding: 0.28rem;
+}
+.loadmoreTips>img{
+  width: 0.5rem;
+  height: 0.5rem;
+  background-image: url('../../assets/loading.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
